@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gamma/static/css/main.2cce8147.chunk.css",
+    "main.js": "/gamma/static/js/main.a998eeca.chunk.js",
+    "main.js.map": "/gamma/static/js/main.a998eeca.chunk.js.map",
+    "runtime~main.js": "/gamma/static/js/runtime~main.cc635432.js",
+    "runtime~main.js.map": "/gamma/static/js/runtime~main.cc635432.js.map",
+    "static/js/2.37ab121f.chunk.js": "/gamma/static/js/2.37ab121f.chunk.js",
+    "static/js/2.37ab121f.chunk.js.map": "/gamma/static/js/2.37ab121f.chunk.js.map",
+    "index.html": "/gamma/index.html",
+    "precache-manifest.906ac940e880b612af38a38c7f69801b.js": "/gamma/precache-manifest.906ac940e880b612af38a38c7f69801b.js",
+    "service-worker.js": "/gamma/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/gamma/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/gamma/static/media/logo.5d5d9eef.svg"
+  }
+}
