@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/layout/Navbar";
 
-function App() {
+import About from "./components/layout/About";
+import Projects from "./components/layout/Projects";
+import { BrowserRouter as Router } from "react-router-dom";
+import { useInView } from "react-intersection-observer";
+import "./styles/style.css";
+
+const App = () => {
+  const [ref, inView, entry] = useInView({
+    rootMargin: "-100%",
+    threshold: 0
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="App" style={{ scrollSnapType: "x mandatory" }}>
+      <Router>
+        <About />
+        <Projects />
+        <div
+          style={{
+            height: "40vh",
+            backgroundColor: "#2b3252",
+            marginTop: "15vh"
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          footer
+        </div>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

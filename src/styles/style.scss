@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton|Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Finger+Paint&display=swap");
+$dark-grey: #2b3252;
+$flat-red: #ef5455;
+$flat-yellow: #fad744;
+
+@mixin flex($direction, $justify, $alignContent) {
+  display: flex;
+  align-items: center;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-content: $alignContent;
+}
+body {
+  background-color: rgb(250, 250, 250);
+}
+* {
+  font-family: "Open Sans", Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80vw;
+  @include flex(row, flex-start, center);
+  //flex-wrap: wrap;
+
+  .banner {
+    @include flex(column, center, center);
+    background-color: $flat-yellow;
+    align-items: flex-start;
+    padding: 0 5vh 0 5vh;
+    h1 {
+      font-weight: bolder;
+      font-size: 4rem;
+    }
+
+    width: 20vw;
+    height: 100vh;
+    width: 40vw;
+  }
+  .about {
+    @include flex(column, flex-end, center);
+    h1 {
+      color: $flat-yellow;
+      font-weight: bold;
+      font-size: 2.2rem;
+      padding-top: 30px;
+    }
+
+    h3 {
+      color: $flat-yellow;
+      font-weight: lighter;
+    }
+    background-color: #2b3252;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 40vw;
+  }
+  .projects {
+    border-radius: 5px;
+    @include flex(column, flex-start, center);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 140vh;
+    width: 100%;
+    h1 {
+      padding-top: 20vh;
+
+      font-family: "Finger Paint", cursive;
+      font-weight: lighter;
+      color: $dark-grey;
+      font-size: 4.5em;
+    }
+    h2 {
+      padding-bottom: 20px;
+      color: $dark-grey;
+      font-size: 2em;
+    }
+    .item {
+      border-radius: 5px;
+      width: 50vw;
+    }
+
+    h3 {
+      width: 30vw;
+    }
+    .description {
+      border-top: 1px solid $dark-grey;
+
+      width: 80vw;
+      @include flex(row, space-between, flex-start);
+      align-items: center;
+    }
+  }
+
+  h1 {
+    color: $dark-grey;
+    font-weight: bold;
+    font-size: 2.2rem;
+    padding-top: 30px;
+  }
+  h2 {
+    color: $dark-grey;
+    font-weight: lighter;
+    padding-top: 30px;
+  }
+  h3 {
+    color: $dark-grey;
+    font-weight: lighter;
+  }
+}
+.social {
+  @include flex(column, flex-end, flex-end);
+  align-items: flex-start;
+  position: fixed;
+  margin-top: 35vh;
+  padding-left: 2vw;
+  width: 5vw;
+
+  img {
+    padding: 5px;
+    height: 50px;
+  }
+}
+.navbar {
+  @include flex(row, flex-start, center);
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  padding: 8px;
+  list-style-type: none;
+  background-color: white;
+
+  //box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.07);
+  .icon {
+    padding-right: 20px;
+    color: $flat-red;
+    font-size: 2rem;
+    font-family: "Monoton";
+  }
+
+  li a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: $dark-grey;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .container .banner {
+    display: none;
+  }
+  .container .about {
+    width: 100vw;
+    text-align: center;
+    h1 {
+      font-weight: bolder;
+    }
+  }
+  .container .projects {
+    align-items: center;
+  }
+  .container .projects .description {
+    flex-direction: column;
+    width: 80vw;
+    img {
+      width: 80vw;
+    }
+    h3 {
+      width: 80vw;
+      text-align: center;
+    }
+  }
+  .social img {
+    height: 20px;
+    padding: 0;
+  }
+}
