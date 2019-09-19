@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gamma/static/css/main.782da2e8.chunk.css",
+    "main.css": "/gamma/static/css/main.ee1c8b29.chunk.css",
     "main.js": "/gamma/static/js/main.bc48ffe3.chunk.js",
     "main.js.map": "/gamma/static/js/main.bc48ffe3.chunk.js.map",
     "runtime~main.js": "/gamma/static/js/runtime~main.cc635432.js",
@@ -8,9 +8,9 @@
     "static/js/2.b57de7e0.chunk.js": "/gamma/static/js/2.b57de7e0.chunk.js",
     "static/js/2.b57de7e0.chunk.js.map": "/gamma/static/js/2.b57de7e0.chunk.js.map",
     "index.html": "/gamma/index.html",
-    "precache-manifest.947770299904ec75cf14a390c24ae266.js": "/gamma/precache-manifest.947770299904ec75cf14a390c24ae266.js",
+    "precache-manifest.2926f3333d4cc2bae5b732c572073915.js": "/gamma/precache-manifest.2926f3333d4cc2bae5b732c572073915.js",
     "service-worker.js": "/gamma/service-worker.js",
-    "static/css/main.782da2e8.chunk.css.map": "/gamma/static/css/main.782da2e8.chunk.css.map",
+    "static/css/main.ee1c8b29.chunk.css.map": "/gamma/static/css/main.ee1c8b29.chunk.css.map",
     "static/media/flavorshare.png": "/gamma/static/media/flavorshare.1ce26718.png",
     "static/media/flavorshare2.png": "/gamma/static/media/flavorshare2.327bc582.png",
     "static/media/github-brands.svg": "/gamma/static/media/github-brands.a09c24b2.svg",
