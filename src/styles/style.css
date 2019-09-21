@@ -54,7 +54,6 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
   padding: 0 5vh 0 5vh;
-  width: 20vw;
   height: 100vh;
   width: 40vw;
 }
@@ -121,7 +120,6 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  height: 140vh;
   width: 100%;
 }
 
@@ -167,6 +165,16 @@ body {
   -ms-flex-line-pack: start;
       align-content: flex-start;
   align-items: center;
+}
+
+.container .projects .description a button {
+  color: white;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  margin-top: 5vh;
+  height: 50px;
+  width: 15vw;
+  background-color: #ef5455;
 }
 
 .container h1 {
@@ -254,7 +262,20 @@ body {
   color: #2b3252;
 }
 
-@media only screen and (max-width: 650px) {
+.footer {
+  background-color: #2b3252;
+  color: white;
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 15vh;
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width: 600px), (max-height: 300px) {
+  body {
+    width: 100vw;
+  }
   .container .banner {
     display: none;
   }
@@ -266,9 +287,23 @@ body {
     font-weight: bolder;
   }
   .container .projects {
+    height: 120vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .container .projects h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .container .projects h2 {
+    font-size: 1em;
+    text-align: center;
+  }
+  .container .projects h3 {
+    font-size: 0.7rem;
+    text-align: center;
+    width: 100%;
   }
   .container .projects .description {
     -webkit-box-orient: vertical;
@@ -277,14 +312,14 @@ body {
             flex-direction: column;
     width: 80vw;
   }
+  .container .projects .description a button {
+    width: 100%;
+  }
   .container .projects .description img {
     width: 80vw;
   }
-  .container .projects .description h3 {
-    width: 80vw;
-    text-align: center;
-  }
   .social img {
+    display: none;
     height: 20px;
     padding: 0;
   }

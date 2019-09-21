@@ -7,6 +7,7 @@ import Projects from "./components/layout/Projects";
 import { BrowserRouter as Router } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import "./styles/style.css";
+import Footer from "./components/layout/Footer";
 
 const App = () => {
   const [ref, inView, entry] = useInView({
@@ -19,15 +20,7 @@ const App = () => {
       <Router>
         <About />
         <Projects />
-        <div
-          style={{
-            height: "40vh",
-            backgroundColor: "#2b3252",
-            marginTop: "15vh"
-          }}
-        >
-          footer
-        </div>
+        <Footer />
       </Router>
     </div>
   );

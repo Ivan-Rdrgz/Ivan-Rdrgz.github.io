@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import flavorshare from "../../styles/images/flavorshare.png";
 import flavorshare2 from "../../styles/images/flavorshare2.png";
 import { useInView } from "react-intersection-observer";
@@ -27,12 +28,22 @@ const Projects = () => {
 
         <div>
           <div className="description">
-            <h3>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </h3>
+            <div>
+              <h2>
+                A web application to write and share food and drink recipes with
+                friends.
+              </h2>
+              <h3>
+                Flavorshare was built using the React JavaScript library for the
+                front end and NodeJS/ExpressJS for the back end. The application
+                is hosted on the Heroku platform while the image uplads are
+                stored using AWS S3 buckets.{" "}
+              </h3>{" "}
+              <a href="http://www.flavorshare.com/" target="_blank">
+                <button>Visit page</button>
+              </a>{" "}
+            </div>
+
             <img className="item" src={flavorshare}></img>
           </div>
         </div>

@@ -35,10 +35,9 @@ const About = () => {
         <div className="banner">
           <h1>About</h1>
           <h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Hi, I'm an enthusiastic developer from Moreno Valley CA. I enjoy
+            finding solutions to difficult problems and writing clean code. Lets
+            make something!
           </h3>
         </div>
         <div className="about">

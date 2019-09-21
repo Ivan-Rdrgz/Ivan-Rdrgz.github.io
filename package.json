@@ -1,7 +1,7 @@
 {
   "name": "ivanspage",
   "version": "0.1.0",
-  "homepage": "http://ivan-rdrgz.github.io/gamma",
+  "homepage": "http://ivan-rdrgz.github.io",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
