@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fad69e52.chunk.css",
-    "main.js": "/static/js/main.fb70a60a.chunk.js",
-    "main.js.map": "/static/js/main.fb70a60a.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.ca185d14.js",
-    "runtime~main.js.map": "/static/js/runtime~main.ca185d14.js.map",
-    "static/js/2.1cf485f9.chunk.js": "/static/js/2.1cf485f9.chunk.js",
-    "static/js/2.1cf485f9.chunk.js.map": "/static/js/2.1cf485f9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.feb9ddd8999f5ba1822b98435d1a5b6d.js": "/precache-manifest.feb9ddd8999f5ba1822b98435d1a5b6d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.fad69e52.chunk.css.map": "/static/css/main.fad69e52.chunk.css.map",
-    "static/media/flavorshare.png": "/static/media/flavorshare.1ce26718.png",
-    "static/media/flavorshare2.png": "/static/media/flavorshare2.327bc582.png",
-    "static/media/github-brands.svg": "/static/media/github-brands.a09c24b2.svg",
-    "static/media/linkedin-brands.svg": "/static/media/linkedin-brands.fc1915ec.svg",
-    "static/media/selfie.png": "/static/media/selfie.9b4849ac.png",
-    "static/media/twitter-square-brands.svg": "/static/media/twitter-square-brands.1d8c5e47.svg"
+    "main.css": "/portfolio/static/css/main.fad69e52.chunk.css",
+    "main.js": "/portfolio/static/js/main.fb70a60a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fb70a60a.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.93e3a8fa.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.93e3a8fa.js.map",
+    "static/js/2.1cf485f9.chunk.js": "/portfolio/static/js/2.1cf485f9.chunk.js",
+    "static/js/2.1cf485f9.chunk.js.map": "/portfolio/static/js/2.1cf485f9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.975b18d011334c14764a59c46c61deac.js": "/portfolio/precache-manifest.975b18d011334c14764a59c46c61deac.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.fad69e52.chunk.css.map": "/portfolio/static/css/main.fad69e52.chunk.css.map",
+    "static/media/flavorshare.png": "/portfolio/static/media/flavorshare.1ce26718.png",
+    "static/media/flavorshare2.png": "/portfolio/static/media/flavorshare2.327bc582.png",
+    "static/media/github-brands.svg": "/portfolio/static/media/github-brands.a09c24b2.svg",
+    "static/media/linkedin-brands.svg": "/portfolio/static/media/linkedin-brands.fc1915ec.svg",
+    "static/media/selfie.png": "/portfolio/static/media/selfie.9b4849ac.png",
+    "static/media/twitter-square-brands.svg": "/portfolio/static/media/twitter-square-brands.1d8c5e47.svg"
   }
 }
